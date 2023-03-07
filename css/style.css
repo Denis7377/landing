@@ -16,6 +16,15 @@ body{
     
 }
 
+@media (max-width: 1199px){
+    .wrapper{
+        width: 960px;
+    }
+    .main{
+        width: 670px;
+    }
+}
+
 
 /* HEADER */
 nav{
@@ -50,6 +59,7 @@ nav{
     padding: 0 calc(50% - 800px);
     
 }
+
 
 .about__title{
     padding: 0;
