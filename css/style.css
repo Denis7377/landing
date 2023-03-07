@@ -1,6 +1,6 @@
 *{
-    padding: 0;
-    margin: 0;
+    /* padding: 0;
+    margin: 0; */
     box-sizing: border-box;
     color: #FFFF;
 }
@@ -18,10 +18,10 @@ body{
 
 @media (max-width: 1199px){
     .wrapper{
-        width: 960px;
+        width: 370px;
     }
     .main{
-        width: 670px;
+        width: 370px;
     }
 }
 
@@ -123,6 +123,8 @@ p{
     top: -100px;
 }
 
+/* DOWNLOAD SECTION */
+
 .download__app{
     display: flex;
     justify-content: space-between;
@@ -145,6 +147,7 @@ p{
 }
 
 
+/* COOKIE SECTION */
 
 .cookie__site{
     display: flex;
@@ -173,11 +176,14 @@ p{
     margin: 0 24px 0 0;
 }
 
+/* CONTACT SECTION */
 
 .contact__member{
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
+    gap: 81px;
+    margin-top: 61px;
 }
 
 .contact__text{
@@ -187,13 +193,61 @@ p{
     font-size: 30px;
     line-height: 41px;
     margin: 0 auto;
+    padding: 64px 73px 30px 55px;
 
 }
 
 .contact_box_support{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     width: 503px;
     height: 312px;
     border: 2px solid #ffff;
     border-radius: 22px;
 }
 
+.contact__link{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    padding: 0 80px 62px 0;
+    margin: 0;
+}
+
+.contact_box_login{
+    width: 503px;
+    height: 312px;
+    border: 2px solid #ffff;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.contact__text__log{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin: 0;
+    padding: 0 0 30px 55px;
+}
+
+.contact__link__log{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    text-decoration-line: underline;
+    padding-left: 55px;
+}
+
+/* MISSION SECTION */
