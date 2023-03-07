@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #FFFF;
+}
+
+body{
+    background: #000000;
+    font-family: Montserrat, Noto sans;
+
+}
+
+.wrapper{
+    min-width: 1440px;
+    
+}
+
+
+/* HEADER */
+nav{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 0 calc(50% - 800px);
+}
+.logo {
+    margin: 0 8px 0 85px;
+}
+
+
+.login__img{
+    margin: 0 12px  0 108px;
+}
+
+.nav__link{
+    font-family: Noto sans, sans-serif;
+    text-decoration: none;
+    
+}
+
+/* MAIN  */
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    padding: 0 calc(50% - 800px);
+    
+}
+
+.about__title{
+    padding: 0;
+    margin: 0;
+}
+
+
+h1{
+    font-family: Montserrat, sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 70px;
+    margin: 275px 0 0 100px;
+}
+
+p{
+    font-family: Noto Sans, sans-serif;;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    margin: 129px 0 0 205px;
+}
+
+.img__phone{
+    position: relative;
+}
+
+.img__vector{
+    position: absolute;
+    width: 340px;
+    height: 666.13px;
+    background: rgba(250, 0, 255, 0.2);
+    filter: blur(125px);
+    transform: rotate(-105.26deg);
+}
+
+.vector{
+    position: relative;
+}
+
+.line{
+    position: absolute;
+    width: 139.43px;
+    height: 0px;
+    border: 4px solid #FFFFFF;
+    transform: rotate(120.61deg);
+    left: 50px;
+    top: 10px;
+    
+}
+
+.elipse{
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    background: rgba(96, 92, 234, 0.5);
+    filter: blur(50px);
+    left: 93px;
+    top: -100px;
+}
+
+.download__app{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 110px 0 100px;
+    padding: 0 calc(50% - 800px);
+}
+
+.download__text{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 70px;    
+}
+
+.download_link{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+.cookie__site{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 93px;
+    background: #212834;
+    padding: 0 calc(50% - 800px);
+}
+
+.cookie__text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    margin: 0 0 0 100px;
+}
+
+.cookie__btn {
+    width: 132px;
+    height: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 0.5px solid #FFFFFF;
+    border-radius: 6px;
+    margin: 0 24px 0 0;
+}
+
+
+.contact__member{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.contact__text{
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    margin: 0 auto;
+
+}
+
+.contact_box_support{
+    width: 503px;
+    height: 312px;
+    border: 2px solid #ffff;
+    border-radius: 22px;
+}
+
